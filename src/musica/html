@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessyca - Arte em Movimento</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jessyca</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfólio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>  
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagens/Jessyca.jpg" class="d-block w-100" alt="Imagem 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-11.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-4.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-5.jpg" class="d-block w-100 h-flex" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-7.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-8.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-9.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-10.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-11.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-1.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-2.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-3.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-4.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-5.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-6.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-7.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-8.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-9.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-10.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-3.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-12.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-fire-13.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-1.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-2.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-3.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-4.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-5.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-6.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-7.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-8.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-9.jpg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/Jessyca-roupa-10.jpg" class="d-block w-100" alt="Imagem 28">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<section id="sobre" class="container">
+  <h2>Sobre</h2>
+  <p>Uma breve apresentação sobre você e sua paixão pela arte.</p>
+  <p>Adicione aqui mais informações sobre sua trajetória, seus objetivos e o que te inspira.</p>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="./imagens/Jessyca-fire-12.jpg" alt="Sua foto" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <h3>Depoimentos</h3>
+      <p>"A Jessyca é uma artista incrível! Amei a maquiagem que ela fez para o meu casamento."</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="container">
+  <h2>Portfólio</h2>
+  <div class="container my-5">
+    <div class="row">
+        <!-- Coluna 1: Portfólio de Maquiagem -->
+        <div class="col-md-4">
+            <h2 class="text-center">Maquiagem</h2>
+            <div id="makeupCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Vídeo 1 -->
+                    <div class="carousel-item active">
+                        <video class="d-block w-100" controls>
+                            <source src="caminho/para/video1.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    <!-- Vídeo 2 -->
+                    <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="caminho/para/video2.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    <!-- Mais vídeos aqui -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#makeupCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#makeupCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Coluna 2: Portfólio de Fire Dance -->
+        <div class="col-md-4">
+            <h2 class="text-center">Fire Dance</h2>
+            <div id="fireDanceCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Vídeo 1 -->
+                    <div class="carousel-item active">
+                        <video class="d-block w-100" controls>
+                            <source src="caminho/para/video1.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    <!-- Vídeo 2 -->
+                    <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="caminho/para/video2.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    <!-- Mais vídeos aqui -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#fireDanceCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#fireDanceCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Coluna 3: Portfólio de Roupas -->
+        <div class="col-md-4">
+            <h2 class="text-center">Roupas</h2>
+            <div id="clothingCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Vídeo 1 -->
+                    <div class="carousel-item active">
+                        <video class="d-block w-100" controls>
+                            <source src="caminho/para/video1.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    <!-- Vídeo 2 -->
+                    <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="caminho/para/video2.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    <!-- Mais vídeos aqui -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#clothingCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#clothingCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!-- Seção de Áudio Trance -->
+<section id="audio" class="container">
+  <h2>Trance Music</h2>
+  <audio id="trancePlayer" controls>
+    <source src="https://example.com/audio/trance1.mp3" type="audio/mp3">
+    Seu navegador não suporta a tag de áudio.
+  </audio>
+  <button onclick="playNextTrack()">Próxima Música</button>
+</section>
+
+<script>
+  var audioFiles = [
+    'https://example.com/audio/trance1.mp3',
+    'https://example.com/audio/trance2.mp3',
+    'https://example.com/audio/trance3.mp3'
+  ];
+
+  var currentTrack = 0;
+  var audioPlayer = document.getElementById('trancePlayer');
+
+  function playNextTrack() {
+    currentTrack = (currentTrack + 1) % audioFiles.length;
+    audioPlayer.src = audioFiles[currentTrack];
+    audioPlayer.play();
+  }
