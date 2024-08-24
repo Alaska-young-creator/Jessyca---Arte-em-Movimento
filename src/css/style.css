@@ -20,7 +20,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #030000;
 }
 .container {
     display: flex;
@@ -29,7 +29,7 @@ body {
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #000000;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -47,7 +47,7 @@ body {
 }
 .content h1 {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .content p {
     font-size: 16px;
@@ -68,8 +68,8 @@ body {
     max-width: 1200px;
     margin: 40px auto 0 auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #0a0202;
+    box-shadow: 0 0 10px rgba(109, 6, 6, 0.1);
 }
 .section img {
     width: 100%;
@@ -100,13 +100,13 @@ body {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #0e0316;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .section-comprovacoes h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: #72053c;
     text-align: center;
 }
 .highlight {
@@ -120,7 +120,7 @@ body {
     height: auto;
     border-radius: 8px;
     object-fit: flex;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(231, 213, 213, 0.2);
     margin-right: auto; /* Ajusta o espaço à direita da imagem */
 }
 .comprovacoes-grid {
@@ -131,10 +131,10 @@ body {
 .comprovacao-item {
     display: flex;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: #070000;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(192, 140, 140, 0.1);
 }
 .comprovacao-item img {
     width: 100px;
@@ -149,7 +149,7 @@ body {
 .comprovacao-description p {
     margin: 0;
     font-size: 16px;
-    color: #333;
+    color: #3b0606;
 }
 .section-personagens {
     margin-top: 40px;
@@ -162,7 +162,7 @@ body {
   }
   
   .personagem-item {
-    background-color: #f8f9fa;
+    background-color: #04203b;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -189,7 +189,7 @@ body {
     }
   }
   #orcamento {
-    background-color: #60a5f0; /* Cor de fundo suave */
+    background-color: #020507; /* Cor de fundo suave */
     padding: 60px 0; /* Espaçamento vertical */
 }
 
@@ -199,12 +199,12 @@ body {
 }
 
 #orcamento p {
-    color: #d6c4c4; /* Cor do texto */
+    color: #686060; /* Cor do texto */
     font-size: 16px;
 }
 
 #orcamento .btn-primary {
-    background-color: #007bff; /* Cor do botão */
+    background-color: #7a566a; /* Cor do botão */
     border-color: #115eb1;
 }
 
@@ -213,7 +213,7 @@ body {
     border-radius: 44px; /* Cantos arredondados */
 }
 #contato {
-    background-color: #f8f9fa; /* Cor de fundo suave */
+    background-color: #44349c; /* Cor de fundo suave */
     padding: 50px 0; /* Espaçamento vertical */
 }
 
@@ -239,3 +239,31 @@ body {
 .social-icon img:hover {
     transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
 }
+
+#musicPlayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #musicPlayer button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Adiciona uma transição suave */
+  }
+  
+  /* Estilo 3D para o botão play/pause */
+  #playButton {
+    background: linear-gradient(135deg, #800080, #4b0082); /* Gradiente roxo */
+    border-radius: 50%; /* Faz o botão circular */
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra para o efeito 3D */
+  }
+  
+  #playButton:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+  }
